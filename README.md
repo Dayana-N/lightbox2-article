@@ -1,19 +1,24 @@
 # Mastering Image Galleries with Lightbox2
-Have you ever been in a situation where you wanted to display your product images or gallery in a more friendly and interactive way? Quick Google should solve it! And then you come across tons of tutorials on how to build the functionality from scratch using JavaScript and you think surely there must be an easier way! You have come to the right spot.
+
+![image gallery](https://images.pexels.com/photos/5586315/pexels-photo-5586315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+
+Have you ever been in a situation where you wanted to display your product images or gallery in a more friendly and interactive way? A quick Google search should help you find a solution! And then you come across tons of tutorials on how to build the functionality from scratch using JavaScript and you think surely there must be an easier way! You've come to the right place.
 
 In this article, we are going to explore the power of Lightbox2 which allows us to render images in a more user-friendly way with just a few lines of code
 
 #### Installation
 There are two options to install Lightbox2. 
+
 1. Install using npm 
 ```
 npm install lightbox2 --save
 ```
-2. Download the zip of the latest release from [here](https://github.com/lokesh/lightbox2/releases) and copy it into your project folder
+
+2. Download the zip of the latest release from [Lightbox2's GitHub releases page](https://github.com/lokesh/lightbox2/releases) and copy it into your project folder
 
 #### Setting up
 First, we need to link the `lightbox.css` and `lightbox.js` files in our HTML file
-- Include the CSS at the top of your page in your `<head>` tag. Ensure to add the correct path to the `lightbox.css` file. It should look like this `src/css/lightbox.css` folder.
+- Include the CSS at the top of your page in your `<head>` tag. Ensure you use the correct path to the `lightbox.css` file such as `src/css/lightbox.css` folder.
 
 ```
 <link href="path/to/lightbox.css" rel="stylesheet" />
@@ -40,7 +45,7 @@ First, we need to link the `lightbox.css` and `lightbox.js` files in our HTML fi
 <a href="images/image-4.jpg" data-lightbox="roadtrip">Image #4</a>
 ```
 #### Building a gallery
-Now with this knowledge, let's build a simple gallery to showcase the power of Lightbox2. For this example, we will be using Bootstrap 5 and Fontawesome.
+Now, let's build a simple gallery to showcase Lightbox2's capabilities. For this example, we will be using Bootstrap 5 and Fontawesome.
 We will render each image, wrapped in an anchor tag, which will act as a link to the preview. It is as simple as that and we have our user-friendly and responsive gallery.
 
 ```
@@ -85,6 +90,6 @@ We will render each image, wrapped in an anchor tag, which will act as a link to
 
 ![gallery](./media/docs/lightbox2-gallery.gif)
 
-To find out more about Lightbox2 click [here](https://lokeshdhakar.com/projects/lightbox2/#getting-started)
-
+You can find out more about Lightbox2 [here](https://lokeshdhakar.com/projects/lightbox2/#getting-started)
+To view the source code for this tutorial click [here](https://github.com/Dayana-N/lightbox2-article)
 If you found this article helpful, please share it with your friends.
